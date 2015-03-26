@@ -3002,7 +3002,7 @@
 				var an = oSettings.aanFeatures.r;
 				for ( var i=0, iLen=an.length ; i<iLen ; i++ )
 				{
-					an[i].style.display = bShow;
+					an[i].style.display = bShow ? "block" : "none";
 				}
 			}
 
