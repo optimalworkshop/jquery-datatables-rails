@@ -3002,8 +3002,7 @@
 				var an = oSettings.aanFeatures.r;
 				for ( var i=0, iLen=an.length ; i<iLen ; i++ )
 				{
-					debugger;
-					an[i].style.display = (bShow ? "block" : "none");
+					an[i].style.display = bShow ? "block" : "none";
 				}
 			}
 
